@@ -1,0 +1,251 @@
+* {
+    font-family: 'Space Mono', monospace;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+contentArea {
+    position: relative;
+    top: 8vh;
+    left: 2vw;
+    width: 98vw;
+}
+
+input[type="button"] {
+    cursor: pointer;
+}
+
+#rollTab {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    right: 0;
+    font-weight: bold;
+    color: black;
+    font-size: 20;
+    font-weight: bold;
+}
+
+#rollingArea {
+    position: absolute;
+    border: 1px solid black;
+    z-index: 2;
+    height: 100vh;
+    left: 100vw;
+    width: 20vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#userInfoArea {
+    position: absolute;
+    border: 1px solid black;
+    z-index: 2;
+    height: 100vh;
+    right: 100vw;
+    width: 20vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#rollingArea p, #userInfoArea p, #rollingArea h1, #userInfoArea h1, #rollingArea h2, #userInfoArea h2, #rollingArea h3, #userInfoArea h3, #rollingArea input, #userInfoArea input, #rollingArea form input, #userInfoArea form input, #rollingArea label, #userInfoArea label, #rollingArea div, #userInfoArea div {
+    color: black;
+    background-color: white;
+} 
+
+.flexRowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flexColumnContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexCentre {
+    align-content: center;
+}
+
+#loginFormContainer {
+    position: relative;
+    height: 30vh;
+    width: 20vw;
+    top: 25vh;
+    left: 40vw;
+}
+
+#loginForm {
+    width: 100%;
+    height: 100%;
+}
+
+#loginForm input {
+    border: 1px solid black;
+    padding: 5px;
+    outline: none;
+}
+
+#loginForm input[type="submit"] {
+    position: relative;
+    width: 40%;
+    left: 30%;
+    cursor: pointer;
+}
+
+#loginForm input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+
+#loginForm label {
+    font-size: large;
+}
+
+#loginForm input[type="submit"] {
+    font-size: large;
+}
+
+#d6 {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#resultsArea {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+#rollingArea input {
+    border: 2px solid black;
+}
+
+#logoutForm, #changePassword {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#logoutForm input, #changePassword input {
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: large;
+}
+
+#quantityAread6 {
+    width: 30%;
+    text-align: center;
+}
+
+#plusd6, #minusd6 {
+    width: 20%;
+    font-weight: bold;
+}
+
+#d10 {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#quantityAread10 {
+    width: 30%;
+    text-align: center;
+}
+
+#plusd10, #minusd10 {
+    width: 20%;
+    font-weight: bold;
+}
+
+#d12 {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#quantityAread12 {
+    width: 30%;
+    text-align: center;
+}
+
+#plusd12, #minusd12 {
+    width: 20%;
+    font-weight: bold;
+}
+
+#userTab {
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    left: 0;
+    font-weight: bold;
+    color: black;
+    font-size: 20;
+    font-weight: bold;
+}
+
+#createGameForm {
+    width: 20vw;
+}
+
+#createGameForm input {
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: large;
+    padding: 10px;  
+}
+
+#createGameForm input:hover {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#gamesList .flexRowContainer {
+    width: 40vw;
+}
+
+#gamesList .flexRowContainer form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#gamesList .flexRowContainer form input {
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: large;
+    padding: 2px; 
+    width: 5vw;
+}
+
+#gamesList .flexRowContainer form input:hover {
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
+
+#gamesList .flexRowContainer form label {
+    display: flex;
+    align-items: center;
+}
